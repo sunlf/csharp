@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CSharpClass.cs" />
     <Compile Include="Enity\PetOwner.cs" />
+    <Compile Include="Enity\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

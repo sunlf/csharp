@@ -11,7 +11,8 @@ namespace CSharpDEV.Collection
         public static void Main()
         {
             //CTest.CWhere();
-            CTest.SelectManyTest();
+            //CTest.SelectManyTest();
+            CTest.ToLookUpTest();
         }
     }
 }
