@@ -8,6 +8,9 @@ using CSharpDEV.Collection.Enity;
 
 namespace CSharpDEV.Collection
 {
+    /// <summary>
+    /// C# 集合相关操作
+    /// </summary>
     public class CTest
     {
         public static int Add(int x, int y)
