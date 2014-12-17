@@ -10,7 +10,8 @@ namespace CSharpDEV.Collection
     {
         public static void Main()
         {
-            CTest.CWhere();
+            //CTest.CWhere();
+            CTest.SelectManyTest();
         }
     }
 }
