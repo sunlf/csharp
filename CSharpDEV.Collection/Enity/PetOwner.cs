@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CSharpDEV.Collection.Enity
 {
     /// <summary>
-    /// 宠物商店
+    /// 宠物商店 modify from master
     /// </summary>
     public class PetOwner
     {
