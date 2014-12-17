@@ -13,5 +13,12 @@ namespace CSharpDEV.Collection
         {
             return x + y;
         }
+
+        public static void CWhere()
+        {
+            string[] names = { "sunlf", "Dick", "Harry" };
+            IEnumerable<string> filteredNames = names.Where(n => n.Length >= 4);
+            foreach (string name in filteredNames) Console.WriteLine(name);
+        }
     }
 }
