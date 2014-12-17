@@ -52,7 +52,21 @@ namespace CSharpDEV.Collection
             }
         }
 
-        public static void ToLookUpTest()
+        public static void LookUpTest()
+        {
+            List<Product> products = GetAllProducts();
+            var lookUp = products.ToLookup(p=>p.Category,j=>j.ToString().ToUpper());
+            foreach (var l in lookUp)
+            {
+                Console.WriteLine(l.Key);
+                foreach (var item in l)
+                {
+                    Console.WriteLine("\t" + item);
+                }   
+            }
+        }
+
+        public static void GroupTest()
         {
             List<Product> products = GetAllProducts();
             foreach (var group in products.GroupBy(p => p.Category))

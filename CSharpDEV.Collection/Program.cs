@@ -12,7 +12,7 @@ namespace CSharpDEV.Collection
         {
             //CTest.CWhere();
             //CTest.SelectManyTest();
-            CTest.ToLookUpTest();
+            CTest.LookUpTest();
         }
     }
 }
