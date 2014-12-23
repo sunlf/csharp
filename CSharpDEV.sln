@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDEV.Collection", "CSharpDEV.Collection\CSharpDEV.Collection.csproj", "{7BDEFB88-5836-4FA3-A868-F4F19109A2CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDEV.Stream", "CSharpDEV.Stream\CSharpDEV.Stream.csproj", "{C32093AA-42C0-4E6E-900B-08163A732078}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{7BDEFB88-5836-4FA3-A868-F4F19109A2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BDEFB88-5836-4FA3-A868-F4F19109A2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BDEFB88-5836-4FA3-A868-F4F19109A2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32093AA-42C0-4E6E-900B-08163A732078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32093AA-42C0-4E6E-900B-08163A732078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32093AA-42C0-4E6E-900B-08163A732078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32093AA-42C0-4E6E-900B-08163A732078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
